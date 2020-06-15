@@ -1,0 +1,30 @@
+package com.ceetiz.projecthexa.businesslogic.model;
+
+/**
+ * 
+ * This interface defines a Company.
+ *
+ */
+public interface ICompany {
+
+	/**
+	 * Gets the siret.
+	 * 
+	 * @return {@link String}
+	 */
+	public String getSiret();
+	
+	/**
+	 * Gets the denomination.
+	 * 
+	 * @return {@link String}
+	 */
+	public String getDenomination();
+	
+	/**
+	 * Gets the type.
+	 * 
+	 * @return {@link CompanyType}
+	 */
+	public CompanyType getType();
+}
